@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- 
+      This is an HTML comment
+      You can write text in a comment and the content won't be visible in the page
+    -->
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- cdn for font -->
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+    
+    <!--
+      This is the page head - it contains info the browser uses
+      Like the title, which appears on the browser tab but not inside the page
+      Further down you'll see the content that displays in the page
+    -->
+    <title>Juniper  Technology Research</title>
+    <link rel="icon" href="assets/icon.png" type="image/png">
+
+    <!-- The website stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- The website JavaScript file -->
+    <!--<script src="script.js" defer></script>-->
+    
+    <!-- Embed Model Viewer -->
+    <script type="module" src="https://unpkg.com/@google/model-viewer"></script>
+
+		<!-- For Three -->
+		<script type="module" src="renderController.js"></script>
+
+    
+  </head>
+  <body>
+    <!--
+      The body includes the content you see in the page
+      Each element is defined using tags, like this <div></div>
+      The attributes like class="wrapper" let us style elements in the CSS
+    -->
+    <div class="wrapper">
+      <div class="content" role="main">
+				<canvas id="myThreeJsCanvas"></canvas>
+<!--
+        <div class="title-container">
+           <model-viewer id="modelViewer" class="computer" src="https://cdn.glitch.global/87dc6e07-6553-450c-a687-a26b1e5c3425/CHICKEN.glb?v=1712768372648" alt="A 3D model of a chicken"></model-viewer>
+        </div>
+        <div class="sphere-container">
+           <model-viewer id="sphereViewer" class="sphere" src="https://cdn.glitch.global/87dc6e07-6553-450c-a687-a26b1e5c3425/hollow_sphere.glb?v=1712769069656" alt="outer sphere" style="height: 900px; width: 900px"></model-viewer>
+        </div>
+-->
+
+        <a href="https://forms.gle/APywyhHGr63KGuEn8">
+          <button class="button" href="https://forms.gle/APywyhHGr63KGuEn8">
+          sign up for updates
+          <!--  🚧 TODO: ADD BUTTON HERE -->
+
+          <!-- Once you've added the button from TODO.md, click it in the page -->
+          <!-- Check out the function in script.js to see how it works -->
+          </button>
+       </a>
+      </div>
+    </div>
+  </body>
+</html>
